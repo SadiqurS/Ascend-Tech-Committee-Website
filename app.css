@@ -1,0 +1,297 @@
+html{
+    overflow: auto;
+}
+body {
+    margin: 0;
+    
+    background-color: #001d3d;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav-list{
+    background: #151b29;
+    width: 100%;
+    box-shadow: 0px 0px 10px;
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    
+
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    background: none;
+    color:#ffa260;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 15px; /* 1em 2em*/
+    font-size: 1em;
+    transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+
+}
+
+.nav-item a:hover{
+    border-color: #e2eafc;
+    color:white;
+    box-shadow: 0 0.5em 0.5em -0.4em #e2eafc; 
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.name{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    color: #e2eafc;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-right: auto;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.wrapper {
+    z-index: 2; 
+}
+
+#mainphoto{
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin:0;
+    display: flex;
+}
+
+#mid {
+    text-align:center;
+    color: #f5f3f4;
+    font-family: 'Antic Slab', serif;
+    letter-spacing: 3.5px;
+    margin: 0 auto;
+    display: block;
+    font-size: 4em;
+    padding: 325px;
+}
+#me{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+#about_pic{
+    background-color: black;
+    width: 60vw;
+    height: 700px;
+    background-image: url(https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about_info{
+    width: 40vw;
+    height: 700px;
+    background-color: #e0fbfc;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex-wrap: nowrap;
+    color: #000000;
+    font-size: 30px;
+    padding: 0 15px;
+}
+#about_info span {
+    color:aquamarine;
+    letter-spacing: 3px;
+}
+#about_info span:last-child{
+    color:black;
+}
+#about_info h2{
+    padding-right: 215px;
+    font-size: 2em;
+    position: absolute;
+    top: 685px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+#about_info p{
+    position: relative;
+    bottom: -50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0 20px;
+    padding-top: 10px;
+}
+
+#snkr{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+#snkr_pic{
+    background-color: black;
+    width: 60vw;
+    height: 700px;
+    background-image: url(https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#snkr_info{
+    width: 40vw;
+    height: 700px;
+    background-color: #e0fbfc;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex-wrap: nowrap;
+    color: #000000;
+    font-size: 30px;
+    padding: 0 15px;
+}
+#snkr_info span {
+    color:aquamarine;
+    letter-spacing: 3px;
+}
+#snkr_info span:last-child{
+    color:black;
+}
+#snkr_info h2{
+    padding-right:110px;
+    font-size: 2em;
+    position: absolute;
+    top: 1385px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+#snkr_info p{
+    position: relative;
+    bottom: -50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0 20px;
+    padding-top: 10px;
+}
+
+#photo{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+#photo_pic{
+    background-color: black;
+    width: 60vw;
+    height: 700px;
+    background-image: url(https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+}
+#photo_info{
+    width: 40vw;
+    height: 700px;
+    background-color: #e0fbfc;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex-wrap: nowrap;
+    color: #000000;
+    font-size: 30px;
+    padding: 0 15px;
+   
+}
+
+#photo_info span {
+    color:aquamarine;
+    letter-spacing: 3px;
+}
+#photo_info span:last-child{
+    color:black;
+}
+#photo_info h2{
+    padding-right: 175px;
+    font-size: 2em;
+    position: absolute;
+    top: 2085px;
+    font-family: 'Roboto Slab', serif;
+    
+    
+}
+#photo_info p{
+    position: relative;
+    bottom: -50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0 20px;
+    padding-top: 10px;
+    
+}
+
+footer{
+    background: #282828;
+    background: linear-gradient(-45deg, #EE7752, #E73c7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.foot h2{
+    font-weight: lighter;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+.media{
+    position:absolute;
+    top:3000px;
+    left:50%;
+    transform:translate(-53%, -50%);
+    
+}
+
+.foot li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.foot li:hover{
+    color:#292929;
+    border: 1px solid #292929;
+    transition: 0.5s;
+    transform:translateY(-20%);
+}
